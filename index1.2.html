@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <title> wordStory.html</title>
+  <link rel="stylesheet"
+        type= "text/css"
+        href= "style12.css"/>
+  <script type ="text/javascript"
+          src="wordStory.js">
+
+          function greet(){
+            var txtBoy = document.getElementById("txtBoy");
+            var txtGirl = document.getElementById("txtGirl");
+            var txtGeol = document.getElementById("txtGeol");
+            var txtVerb = document.getElementById("txtVerb");
+            var txtContainer = document.getElementById("txtContainer");
+            var txtLugar = document.getElementById("txtLugar");
+            var txtCosa = document.getElementById("txtCosa");
+            var txtGerund = document.getElementById("txtGerund");
+            var output = document.getElementById("output");
+
+            var boy= txtBoy.value
+            var girl= txtGirl.value
+            var geol= txtGeol.value
+            var verb= txtVerb.value
+            var part= txtCosa.value
+            var lugar= txtLugar.value
+
+            var story =boy + "y"+ girl + "se fueron a la tienda de";
+            story+= geol +"para"+verb+"que necesitaban para un"+part;
+            story+="pero"+girl+"no tenia dinero y se tuvieron q ir a"+lugar+ "a por ello.";
+            output.innerHTML = story;
+  </script>
+
+</head>
+<body>
+  <h1>Word Story</h1>
+  <form action = "">
+    <fieldset>
+      <label for = "txtBoy">nombre del chico 
+      </label>
+      <input type="text"
+             id= "txtBoy" />
+      <label for = "txtGirl">nombre de la chica
+        </label>
+        <input type="text"
+               id= "txtGirl" />
+      <label for = "txtGeol">lugar geologico
+        </label>
+        <input type="text"
+               id= "txtGeol" />
+      <label for = "txtVerb">verbo 
+        </label>
+        <input type="text"
+               id= "txtVerb" />
+      <label for = "txtCosa">objeto 
+        </label>
+        <input type="text"
+               id= "txtCosa" />
+      <label for = "txtLugar">lugar
+        </label>
+        <input type="text"
+               id= "txtLugar" />
+      <button onclick ="greet()"
+                type = "button">
+         tell the story
+      </button>
+    </fieldset>
+  </form>
+  <div id="output">
+  </div>
+</body>
+</html>

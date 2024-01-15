@@ -1,0 +1,29 @@
+
+body  {
+
+  background-image: url(grecia.jpg);
+
+ background-size: cover; 
+
+ background-repeat: no-repeat;
+
+  background-attachment: fixed;
+  text-align: center;
+
+  font-family: Arial, sans-serif;
+    font-size: 30px;
+    color: #FFF800;
+  }
+
+  h1 {
+    font-size: 30px;
+    color: #007bff;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  
+}

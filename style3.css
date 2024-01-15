@@ -1,0 +1,27 @@
+
+body  {
+
+  background-image: url("Ovejero-251-b.jpg");
+
+ background-size: cover; 
+
+ background-repeat: no-repeat;
+
+  background-attachment: fixed;
+  text-align: center;
+  font-family: Arial, sans-serif;
+    font-size: 30px;
+  color: #663300
+  }
+
+  h1 {
+    font-size: 30px;
+    color: #00FF33;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+}

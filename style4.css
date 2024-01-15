@@ -1,0 +1,27 @@
+
+body  {
+
+  background-image: url("antecedentes-abstractos-templos-griegos-pancarta-que-celebra-belleza-atemporal-patrimonio-cultural-templos-griegos-destacando-su-importancia-historica-ia-generativa_198565-7678.avif");
+
+ background-size: cover; 
+
+ background-repeat: no-repeat;
+
+  background-attachment: fixed;
+  text-align: center;
+  font-family: Arial, sans-serif;
+font-size: 100px;
+  color: #333;
+}
+
+h1 {
+  font-size: 50px;
+  color: #007bff;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+}
